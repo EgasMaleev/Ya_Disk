@@ -3,7 +3,7 @@ import requests
 
 from ya_disk import YandexDisk
 
-TOKEN = "AQAAAABM9tR2AADLW4FNSpmMiEJ8qiX2_dNy4RY"
+TOKEN = ""
 if __name__ == '__main__':
     ya = YandexDisk(token=TOKEN)
     file_path = str(input())
