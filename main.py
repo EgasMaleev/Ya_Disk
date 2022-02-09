@@ -37,7 +37,7 @@ class YandexDisk:
 
 
 
-TOKEN = "AQAAAABM9tR2AADLW4FNSpmMiEJ8qiX2_dNy4RY"
+TOKEN = ""
 if __name__ == '__main__':
     ya = YandexDisk(token=TOKEN)
     file_name = input("Введите имя файла вместе с расширением, если в той же директории где и исполняющий файл или его абсолютный путь: ")
